@@ -22,7 +22,7 @@ def triangle(x,y,r):
             "ZCenter:="		, "0mm",
             "XStart:="		, "{}{}".format(x+r, unit),
             "YStart:="		, "{}{}".format(y, unit),
-            "ZStart:="		, "0mm",
+            "ZStart:="		, "5mm",
             "NumSides:="		, "3",
             "WhichAxis:="		, "Z"
         ], 

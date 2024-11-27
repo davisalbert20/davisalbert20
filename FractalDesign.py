@@ -7,7 +7,7 @@ oProject = oDesktop.GetActiveProject()
 oDesign = oProject.GetActiveDesign()
 oEditor = oDesign.SetActiveEditor("3D Modeler")
 
-r=10 #radius
+r=20 #radius
 unit='mm' #unit
 n=4 #iteration
 
@@ -22,7 +22,7 @@ def triangle(x,y,r):
             "ZCenter:="		, "0mm",
             "XStart:="		, "{}{}".format(x+r, unit),
             "YStart:="		, "{}{}".format(y, unit),
-            "ZStart:="		, "5mm",
+            "ZStart:="		, "1.6mm",
             "NumSides:="		, "3",
             "WhichAxis:="		, "Z"
         ], 

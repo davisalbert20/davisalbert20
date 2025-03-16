@@ -7,7 +7,7 @@ oProject = oDesktop.GetActiveProject()
 oDesign = oProject.GetActiveDesign()
 oEditor = oDesign.SetActiveEditor("3D Modeler")
 
-r=20 #radius
+r=15 #radius
 unit='mm' #unit
 n=4 #iteration
 

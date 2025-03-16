@@ -19,7 +19,7 @@ def triangle(x,y,r):
             "IsCovered:="		, True,
             "XCenter:="		, "{}{}".format(x, unit),
             "YCenter:="		, "{}{}".format(y, unit),
-            "ZCenter:="		, "0mm",
+            "ZCenter:="		, "1.6mm",
             "XStart:="		, "{}{}".format(x+r, unit),
             "YStart:="		, "{}{}".format(y, unit),
             "ZStart:="		, "1.6mm",
